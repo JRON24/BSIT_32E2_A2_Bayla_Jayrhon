@@ -1,0 +1,44 @@
+/* General Styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Task List Styling */
+.list-group-item {
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+/* When task is marked as done */
+.list-group-item-success span {
+    text-decoration: line-through;
+    color: #28a745;
+}
+
+/* Button Hover Effects */
+.btn {
+    transition: 0.2s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+/* Input Field */
+.input-group input {
+    border-radius: 5px;
+}
+
+/* Task List Item Hover Effect */
+.list-group-item:hover {
+    background-color: #f1f1f1;
+}
